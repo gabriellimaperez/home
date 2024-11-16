@@ -1,0 +1,26 @@
+import = [
+	"~/.config/alacritty/falcon.toml"
+]
+
+[shell]
+program = "/bin/zsh"
+
+[window]
+#opacity = 0.9
+
+[scrolling]
+history = 100000
+
+[font]
+normal = { family = "InconsolataGo Nerd Font Mono", style = "Bold" }
+size = 10.00
+
+[mouse]
+hide_when_typing = true
+
+[keyboard]
+bindings = [
+{ key = "V", mods = "Control", action = "ToggleViMode" },
+	#{ key = "N", mods = "Control", action = "CreateNewWindow" },
+{ key = "Q", mods = "Control", action = "Quit" },
+]
